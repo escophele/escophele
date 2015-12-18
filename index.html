@@ -4,11 +4,10 @@ layout: default
 
 <div class="posts">
    {% for post in site.posts limit:10 %}
-      <div class="post">         
+      <div class="post">   
+         <h1>{{ post.date | date: '%B %d, %Y' }}</h1>
          {{ post.content }}
       </div>
    {% endfor %}
-   <p>
-      <a href="older/">Older</a>
-   </p>
+
 </div>

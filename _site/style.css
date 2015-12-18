@@ -7,7 +7,7 @@ body
 a
 { text-decoration:none; color:black; }
 
-h1
+h1, h2
 { font-size:100%; font-weight:normal; }
 
 .wrapper
@@ -28,7 +28,7 @@ h1
 .post p
 { text-indent:30px; }
 
-.post p:nth-child(1)
+.post p:nth-of-type(1)
 { text-indent:0px; }
 
 .post-title

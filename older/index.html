@@ -15,7 +15,7 @@ title: Older
       {% endif %}   
       
       <div class="post">    
-         <h1>{{ post.date | date: '%B %d, %Y' }}</h1>    
+         <h1>{{ post.date | date: '%Y %B %d' }}</h1>
          {{ post.content }}
       </div>
       {% assign last_year = current_year %}          

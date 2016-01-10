@@ -6,7 +6,7 @@ title: Escophele
 <div class="posts">
    {% for post in site.posts limit:10 %}
       <div class="post">   
-         <h1>{{ post.date | date: '%Y &middot; %m &middot; %d' }}</h1>
+         <h1>{{ post.date | date: '%Y &middot; %-m &middot; %-d' }}</h1>
          {{ post.content }}
       </div>
    {% endfor %}

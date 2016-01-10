@@ -1,11 +1,12 @@
 ---
 layout: default
+title: Escophele
 ---
 
 <div class="posts">
    {% for post in site.posts limit:10 %}
       <div class="post">   
-         <h1>{{ post.date | date: '%Y %B %d' }}</h1>
+         <h1>{{ post.date | date: '%Y &middot; %m &middot; %d' }}</h1>
          {{ post.content }}
       </div>
    {% endfor %}
@@ -13,5 +14,5 @@ layout: default
 </div>
 
 <div>
-  <a href="older/">Older</a>
+  <a href="archive/">Archive</a>
 </div>

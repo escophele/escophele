@@ -77,10 +77,10 @@ a
    { font-size:20px; }     
 
    .wrapper
-   { width:100%; }
+   { width:450px; margin:auto; }
 
    .column
-   { width:100%; max-width:400px; box-sizing:border-box; padding:25px 25px 75px; border-bottom:1px dotted black; margin:0 auto; float:none; position:relative; }    
+   { width:350px; padding:25px 25px 75px; border-bottom:1px dotted black; margin:0 auto; float:none; position:relative; }    
 
    .blargh
    { padding-bottom:25px; } 

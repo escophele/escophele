@@ -17,13 +17,13 @@ a
 { text-decoration:none; color:black; }
 
 .wrapper
-{ position:relative; width:1225px; }
+{ position:relative; width:925px; }
 
 .column
-{ float:left; width:275px; padding:25px 0 50px 25px; }
+{ float:left; width:275px; padding:25px 0 25px 25px; }
 
-.news
-{ }
+.news p
+{ margin-bottom:25px; }
 
 .blargh
 { }
@@ -59,7 +59,7 @@ a
 { }
 
 .the-end
-{ clear:both; border-top:1px dotted black; text-align:center; padding:75px 0 100px; margin:0 25px; }
+{ clear:both; border-top:1px dotted black; text-align:center; padding:100px 0 125px; margin:0 25px; }
 
 .the-end h1
 { font-size:50px; }
@@ -83,7 +83,10 @@ a
    { width:100%; }
 
    .column
-   { width:100%; max-width:400px; box-sizing:border-box; padding:25px 25px 75px; border-bottom:1px dotted black; margin:0 auto; float:none; position:relative; }     
+   { width:100%; max-width:400px; box-sizing:border-box; padding:25px 25px 75px; border-bottom:1px dotted black; margin:0 auto; float:none; position:relative; }    
+
+   .blargh
+   { padding-bottom:25px; } 
 
    .post-nav
    { margin-bottom:0; font-size:20px; }
@@ -98,7 +101,7 @@ a
    { width:auto; }
 
    .the-end
-   { width:100%; max-width:400px; box-sizing:border-box; padding:100px 25px 125px; margin:0 auto; }
+   { width:100%; max-width:400px; box-sizing:border-box; padding:100px 25px 150px; margin:0 auto; border:0; }
 
    .the-end h1
    { font-size:56px; }     

@@ -3,16 +3,19 @@ layout: default
 title: Escophele
 ---
 
-<div class="posts">
+<div class="column blargh">
+
+   <h1>Le Blargh</h1>
+
    {% for post in site.posts limit:10 %}
-      <div class="post">   
-         <h1>{{ post.date | date: '%Y &middot; %-m &middot; %-d' }}</h1>
-         {{ post.content }}
-      </div>
+   <div class="post">   
+      <h2>{{ post.date | date: '%Y &middot; %-m &middot; %-d' }}</h2>
+      {{ post.content }}
+   </div>
    {% endfor %}
 
-</div>
+   <!--  <div class="post-nav">
+      <a href="archive/">Archive &raquo;</a>
+   </div> -->
 
-<div>
-  <a href="archive/">Archive</a>
 </div>

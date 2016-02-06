@@ -2,7 +2,7 @@
 { padding:0; margin:0; border:0; }
 
 body
-{ font:15px/25px georgia; }
+{ font:15px/25px georgia, serif; }
 
 h1
 { font-weight:normal; font-size:25px; font-variant:small-caps; letter-spacing:2px; margin-bottom:25px; }
@@ -61,11 +61,11 @@ a
 .the-end h1
 { font-size:50px; }
 
-@media only screen and ( max-width:600px ) 
+@media only screen and ( max-width:925px ) 
 {     
 
    body
-   { font:18px/28px georgia; }
+   { font:18px/28px georgia, serif; }
 
    img
    { margin-bottom:0; width:100%; max-width:350px; }
@@ -77,10 +77,17 @@ a
    { font-size:20px; }     
 
    .wrapper
+<<<<<<< HEAD
    { width:450px; margin:auto; }
 
    .column
    { width:350px; padding:25px 25px 75px; border-bottom:1px dotted black; margin:0 auto; float:none; position:relative; }    
+=======
+   { max-width:450px; width:100%; padding:0 25px; box-sizing:border-box; margin:auto; }
+
+   .column
+   { width:100%; box-sizing:border-box; padding:25px 25px 75px; border-bottom:1px dotted black; margin:0 auto; float:none; position:relative; }    
+>>>>>>> gh-pages
 
    .blargh
    { padding-bottom:25px; } 

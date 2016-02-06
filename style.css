@@ -1,32 +1,103 @@
 *
-{ border:0; padding:0; margin:0; }
+{ padding:0; margin:0; border:0; }
 
 body
-{ font:20px/30px "Ek Mukta", sans-serif; }
+{ font:15px/25px georgia; }
 
-a
-{ text-decoration:none; color:black; }
+h1
+{ font-weight:normal; font-size:25px; font-variant:small-caps; letter-spacing:2px; margin-bottom:25px; }
 
-h1, h2
-{ font-size:100%; font-weight:normal; }
+h2
+{ font-weight:normal; font-size:16px; text-transform:uppercase; }
+
+img
+{ margin:15px 0; }
 
 .wrapper
-{ width:100%; max-width:500px; margin:140px auto 200px; padding:0 30px; box-sizing:border-box; }
+{ position:relative; width:1225px; }
 
-.footer p
-{ margin:60px 0;}
+.column
+{ float:left; width:275px; padding:25px 0 50px 25px; }
 
-.posts
-{ margin:60px 0; }
+.news
+{ }
+
+.blargh
+{ }
 
 .post
-{ margin:60px 0; }
+{ margin-bottom:50px; }
 
 .post p
-{ text-indent:30px; }
+{ text-indent:25px; }
 
-.post p:nth-of-type(1)
+.post p:first-of-type:first-letter
+{ font-size:50px; display:inline-block; float:left; line-height:40px; padding:5px 5px 0 0; }
+
+.post h2
+{ }
+
+.post img
 { text-indent:0; }
 
-.post-title
-{ text-indent:0 !important; }
+.post p:nth-of-type(1)
+{ text-indent:0; }   
+
+.post-nav
+{ font-weight:normal; font-size:16px; text-transform:uppercase; } 
+
+.books
+{ }
+
+.books img
+{ margin:0; padding-bottom:15px; vertical-align:top; }
+
+.books h2
+{ }
+
+.the-end
+{ clear:both; border-top:1px dotted black; text-align:center; padding:75px 0 100px; margin:0 25px; }
+
+.the-end h1
+{ font-size:50px; }
+
+@media only screen and ( max-width:600px ) 
+{     
+
+   body
+   { font:18px/28px georgia; }
+
+   img
+   { margin-bottom:0; width:100%; max-width:350px; }
+
+   h1
+   { font-size:30px; }
+
+   h2
+   { font-size:20px; }     
+
+   .wrapper
+   { width:100%; }
+
+   .column
+   { width:100%; max-width:400px; box-sizing:border-box; padding:25px 25px 75px; border-bottom:1px dotted black; margin:0 auto; float:none; position:relative; }     
+
+   .post-nav
+   { margin-bottom:0; font-size:20px; }
+
+   .post p:first-of-type:first-letter
+   { font-size:56px; line-height:50px; }     
+
+   .books
+   { border:0; }
+
+   .books img
+   { width:auto; }
+
+   .the-end
+   { width:100%; max-width:400px; box-sizing:border-box; padding:100px 25px 125px; margin:0 auto; }
+
+   .the-end h1
+   { font-size:56px; }     
+
+}

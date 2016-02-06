@@ -3,46 +3,64 @@
 <html>
 
 <head>
+  
   <meta charset="utf-8" />
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="/style.css" />
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ek+Mukta:300,700" />
+  <!--   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ek+Mukta:300,700" /> -->
+
 </head>
 
 <body>
 
-<div class="wrapper">
-   <div class="header">
-      <a href="/">Escophele</a>
-   </div>
-   {{ content }}
-   <div class="footer">
-      <p>
-        <a href="mailto:hey@escophele.com">hey@escophele.com</a>
-      </p>
-   </div>
-</div>
+  <div class="wrapper">
 
-<!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-//<![CDATA[
-var sc_project=10746029; 
-var sc_invisible=1; 
-var sc_security="17f6583c"; 
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter_xhtml.js'></"+"script>");
-//]]>
-</script>
-<noscript><div class="statcounter"><a title="shopify stats"
-href="http://statcounter.com/shopify/"
-class="statcounter"><img class="statcounter"
-src="http://c.statcounter.com/10746029/0/17f6583c/1/"
-alt="shopify stats" /></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide -->
+    <div class="column escophele">
+      <h1>Escophele Bee</h1>
+      <p>Epic fantasy writer. Watch me make magic! Say <a href="mailto:hey@escophele.com">hey@escophele.com</a>.</p>
+      <p><img src="http://placehold.it/275x275"></p>
+    </div>
+
+    <div class="column news">
+      <h1>Latest News</h1>
+      <p><i>Of Serafina</i> is out. At last. At last! The last book of my trilogy is done. Buy it today.</p>
+      <p><img src="http://placehold.it/275x400"></p>
+    </div>    
+
+    {{ content }}
+
+    <div class="column books">
+
+      <h1>My Books</h1>     
+
+      <p><img src="http://placehold.it/50x75"> <img src="http://placehold.it/50x75"> <img src="http://placehold.it/50x75"> <img src="http://placehold.it/50x75"> <img src="http://placehold.it/50x75"></p>      
+      <h2>The Cedarque Treasure Hunt</h2>     
+      <p>First, the Map</p>     
+      <p>Second, the Riddle</p>
+      <p>Third, the Gate</p>
+      <p>Fourth, the Key</p>
+      <p>Fifth and Final, the Treasure</p>
+      <br /><br />
+      
+      <p><img src="http://placehold.it/50x75"> <img src="http://placehold.it/50x75"> <img src="http://placehold.it/50x75"></p>
+      <h2>Almagest</h2>
+      <p>Stars and Light and Winged Things</p>
+      <p>Dust of Asters Breaking Free</p>
+      <p>Almagest</p>
+      <br /><br />
+      
+      <p><img src="http://placehold.it/50x75"></p>
+      <h2>Of Serafina</h2>
+    </div>    
+
+    <div class="the-end">
+      <h1>The End</h1>
+    </div>
+
+  </div>
+  
+  {% include analytics.html %}
 
 </body>
 

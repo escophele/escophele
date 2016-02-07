@@ -17,7 +17,7 @@ a
 { text-decoration:none; color:black; }
 
 .wrapper
-{ position:relative; xwidth:100%; width:1525px; }
+{ position:relative; width:100%; max-width:1525px; }
 
 .column
 { float:left; width:275px; padding:25px 0 25px 25px; }
@@ -51,7 +51,7 @@ a
 
 
 /* Two columns */
-@media only screen and ( min-width:676px ) and ( max-width:1225px ) 
+@media only screen and ( min-width:676px ) and ( max-width:1525px ) 
 {     
 
    body
@@ -67,7 +67,7 @@ a
    { width:625px; float:left; padding-bottom:50px; }
 
    .blargh
-   { width:575px; border-top:1px dotted black; border-bottom:1px dotted black; padding:25px; }
+   { width:575px; border-top:1px dotted black; xborder-bottom:1px dotted black; padding:25px; margin:50px 0 0; }
 
    .post p:first-of-type:first-letter
    { font-size:56px; line-height:50px; }   

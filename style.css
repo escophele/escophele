@@ -17,7 +17,7 @@ a
 { text-decoration:none; color:black; }
 
 .wrapper
-{ position:relative; width:100%; max-width:1225px; }
+{ position:relative; width:100%; max-width:1525px; }
 
 .column
 { float:left; width:275px; padding:25px 0 25px 25px; }
@@ -62,32 +62,29 @@ a
 { font-size:50px; }
 
 
-/* Three columns */
-@media only screen and ( min-width:925px ) and ( max-width:1225px ) 
+/* Two columns */
+@media only screen and ( min-width:676px ) and ( max-width:1525px ) 
 {     
 
+   body
+   { font:18px/28px georgia, serif; }
+
    .wrapper
-   { max-width:925px; }
+   { max-width:675px; padding:0 25px; margin:auto; box-sizing:border-box; }
 
    .lump
-   { width:300px; float:left; }
+   { width:625px; float:left; padding-bottom:50px; }
 
-}
+   .blargh
+   { width:575px; border-top:1px dotted black; border-bottom:1px dotted black; padding:25px; }
 
-/* Two columns */
-@media only screen and ( min-width:625px ) and ( max-width:925px ) 
-{     
-
-   .wrapper
-   { max-width:625px; }
-
-   .books
-   { }
+   .the-end
+   { margin:0; }
 
 }
 
 /* One column */
-@media only screen and ( max-width:625px ) 
+@media only screen and ( max-width:675px ) 
 {     
 
    body
@@ -103,7 +100,7 @@ a
    { font-size:20px; }     
 
    .wrapper
-   { max-width:450px; width:100%; padding:0 25px; box-sizing:border-box; margin:auto; }
+   { max-width:450px; padding:0 25px; box-sizing:border-box; margin:auto; }
 
    .column
    { width:100%; box-sizing:border-box; padding:25px 25px 75px; border-bottom:1px dotted black; margin:0 auto; float:none; position:relative; }    
@@ -121,7 +118,7 @@ a
    { width:auto; }
 
    .the-end
-   { width:100%; max-width:400px; box-sizing:border-box; padding:100px 25px 150px; margin:0 auto; border:0; }
+   { width:100%; max-width:400px; box-sizing:border-box; padding:100px 25px 125px; margin:0 auto; border:0; }
 
    .the-end h1
    { font-size:56px; }     

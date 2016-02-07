@@ -2,7 +2,7 @@
 { padding:0; margin:0; border:0; }
 
 body
-{ font:15px/25px georgia, serif; }
+{ font:16px/24px georgia, serif; }
 
 h1
 { font-weight:normal; font-size:25px; font-variant:small-caps; letter-spacing:2px; margin-bottom:25px; }
@@ -17,13 +17,10 @@ a
 { text-decoration:none; color:black; }
 
 .wrapper
-{ position:relative; width:100%; max-width:1525px; }
+{ position:relative; xwidth:100%; width:1525px; }
 
 .column
 { float:left; width:275px; padding:25px 0 25px 25px; }
-
-.blargh
-{ }
 
 .post
 { margin-bottom:50px; }
@@ -32,10 +29,7 @@ a
 { text-indent:25px; }
 
 .post p:first-of-type:first-letter
-{ font-size:50px; display:inline-block; float:left; line-height:40px; padding:5px 5px 0 0; }
-
-.post h2
-{ }
+{ font-size:52px; display:inline-block; float:left; line-height:40px; padding:5px 5px 0 0; }
 
 .post img
 { text-indent:0; }
@@ -46,14 +40,8 @@ a
 .post-nav
 { font-weight:normal; font-size:16px; text-transform:uppercase; padding-bottom:50px; } 
 
-.books
-{ }
-
 .books img
 { margin:0; padding-bottom:15px; vertical-align:top; display:inline-block; }
-
-.books h2
-{ }
 
 .the-end
 { clear:both; border-top:1px dotted black; text-align:center; padding:100px 0 125px; margin:0 25px; }
@@ -63,11 +51,14 @@ a
 
 
 /* Two columns */
-@media only screen and ( min-width:676px ) and ( max-width:1525px ) 
+@media only screen and ( min-width:676px ) and ( max-width:1225px ) 
 {     
 
    body
    { font:18px/28px georgia, serif; }
+
+   h2
+   { font-size:18px; }
 
    .wrapper
    { max-width:675px; padding:0 25px; margin:auto; box-sizing:border-box; }
@@ -77,6 +68,9 @@ a
 
    .blargh
    { width:575px; border-top:1px dotted black; border-bottom:1px dotted black; padding:25px; }
+
+   .post p:first-of-type:first-letter
+   { font-size:56px; line-height:50px; }   
 
    .the-end
    { margin:0; }
@@ -94,7 +88,7 @@ a
    { margin-bottom:0; width:100%; max-width:350px; }
 
    h1
-   { font-size:30px; }
+   { font-size:28px; }
 
    h2
    { font-size:20px; }     

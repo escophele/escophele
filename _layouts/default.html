@@ -7,7 +7,8 @@
   <meta charset="utf-8" />
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="/style.css" />  
+  <link rel="icon" href="images/favicon.png">
 
 </head>
 
@@ -15,8 +16,16 @@
 
   <div class="wrapper">
 
-      <div class="column escophele">
-        <h1>Escophele Bee</h1>
+      <div class="not-so-high">
+        <img src="images/not-so-high.jpg" />
+      </div>    
+
+      <div class="escophele">
+        <h1>Escophele&nbsp;Bee</h1>
+      </div>      
+
+      <div class="column about">
+        <h1>About Me</h1>
         <p>Epic fantasy writer. Watch me make magic! Say <a href="mailto:hey@escophele.com">hey@escophele.com</a>.</p>        
       </div>
 
@@ -26,11 +35,8 @@
       </div>    
 
       <div class="column blargh">
-        <h1>Le Blargh</h1>
+        <h1>Le Blargh <span class="note">Updates irregularly, but with affection</span></h1>
         {{ content }}
-        <!-- <div class="post-nav">
-          <a href="archive/">Archive &raquo;</a>
-        </div> -->
       </div>
 
     <div class="the-end">

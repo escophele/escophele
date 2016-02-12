@@ -32,7 +32,7 @@ a
 { float:left; width:275px; padding:25px 0 25px 25px; }
 
 .blargh
-   { width:575px; border-top:1px dotted black; padding:25px; margin:50px 0 0; }
+{ width:575px; border-top:1px dotted black; padding:25px; margin:50px 0 0; }
 
 .blargh .note
 { font-size:14px; color:#999; font-style:italic; font-variant:normal; }
@@ -57,6 +57,15 @@ a
 
 .books img
 { margin:0; padding-bottom:15px; vertical-align:top; display:inline-block; }
+
+.newsletter
+{ width:575px; border-top:1px dotted black; padding:25px; margin-bottom:50px; }
+
+.newsletter input[type=email]
+{ height:50px; width:200px; box-sizing:border-box; border:1px solid black; font:100% georgia, serif; padding:0 25px; margin-right:25px; color:#999; float:left; margin-bottom:15px; }
+
+.newsletter .button
+{ height:50px; font:100% georgia, serif; padding:0 25px; background-color:#666; color:#ccc; box-sizing:border-box; margin-bottom:25px; }
 
 .the-end
 { clear:both; border-top:1px dotted black; text-align:center; padding:100px 0 125px; margin:0; }
@@ -104,10 +113,13 @@ a
    { margin-bottom:0; font-size:20px; }
 
    .post p:first-of-type:first-letter
-   { font-size:56px; line-height:50px; }     
+   { font-size:56px; line-height:50px; }    
 
-   .books img
-   { width:auto; }
+   .newsletter
+   { border-top:0; } 
+
+   .newsletter input[type=email], .newsletter .button
+   { width:100%; margin-right:0px; text-align:center; }
 
    .the-end
    { width:100%; max-width:400px; box-sizing:border-box; padding:100px 25px 125px; margin:0 auto; border:0; }

@@ -62,13 +62,13 @@ a
 { width:575px; border-top:1px dotted black; padding:25px; margin-bottom:50px; }
 
 .newsletter input[type=email]
-{ height:50px; width:200px; box-sizing:border-box; border:1px solid black; font:100% georgia, serif; padding:0 25px; margin-right:25px; color:#999; float:left; margin-bottom:15px; }
+{ height:50px; width:250px; box-sizing:border-box; border:1px solid black; font:100% georgia, serif; padding:0 25px; margin-right:25px; color:#999; float:left; margin-bottom:15px; }
 
 .newsletter .button
 { height:50px; font:100% georgia, serif; padding:0 25px; background-color:#666; color:#ccc; box-sizing:border-box; margin-bottom:25px; }
 
 .the-end
-{ clear:both; border-top:1px dotted black; text-align:center; padding:100px 0 125px; margin:0; }
+{ clear:both; border-top:1px dotted black; text-align:center; padding:50px 0 100px; margin:0; }
 
 .the-end h1
 { font-size:50px; }

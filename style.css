@@ -80,7 +80,7 @@ a
    { font:18px/28px georgia, serif; }
 
    img
-   { margin-bottom:0; width:100%; max-width:350px; }
+   { margin-bottom:0; width:100%; }
 
    h1
    { font-size:28px; }
@@ -122,14 +122,15 @@ a
    { width:100%; margin-right:0px; text-align:center; }
 
    .the-end
-   { width:100%; max-width:400px; box-sizing:border-box; padding:100px 25px 125px; margin:0 auto; border:0; }
+   { width:100%; max-width:400px; box-sizing:border-box; padding:50px 25px 100px; margin:0 auto; border:0; }
 
    .the-end h1
-   { font-size:56px; }     
+   { font-size:50px; }     
 
 }
 
 @media only screen and ( max-width:450px )
 {
-
+   .escophele h1, .the-end h1
+   { font-size:40px; }
 }

@@ -1,0 +1,5 @@
+- Add mailchimp form
+- Figure out archive
+- Permalinks
+- Font
+- Replace caret

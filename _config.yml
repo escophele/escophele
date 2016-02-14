@@ -1,5 +1,14 @@
-title: Escophele
+title: Escophele Bee
 email: hey@escophele.com
 description: 
 baseurl: ""
 url: ""
+permalink: /:year/:month/:day/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

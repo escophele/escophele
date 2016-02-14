@@ -37,6 +37,9 @@ a
 .escophele h1
 { font-size:65px; }
 
+.escophele a
+{ background:none; }
+
 .blargh
 { width:575px; border-top:1px dotted black; padding:25px; margin:0 0 25px; }
 

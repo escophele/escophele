@@ -1,10 +1,22 @@
 ---
 layout: default
+title: 
 ---
 
 <div class="post">   
   <h2><a href="{{ page.url }}">{{ page.date | date: '%Y &middot; %-m &middot; %-d' }}</a></h2>
 
   {{ content }}
+</div>
+
+<div class="nav">
+
+   {% if page.previous.url %}
+      <a class="prev" href="{{page.previous.url}}">&laquo; Previous post</a>
+   {% endif %}
+   {% if page.next.url %}
+      <a class="next" href="{{page.next.url}}">Next post &raquo;</a>
+   {% endif %}
+
 </div>
 

@@ -28,6 +28,9 @@ a
 .column
 { float:left; width:275px; padding:25px 0 25px 25px; }
 
+.column p
+{ margin-bottom:25px; }
+
 .escophele
 { width:575px; border-bottom:1px dotted black; text-align:center; padding:25px 25px 50px; }
 
@@ -35,7 +38,7 @@ a
 { font-size:65px; }
 
 .blargh
-{ width:575px; border-top:1px dotted black; padding:25px; margin:50px 0 25px; }
+{ width:575px; border-top:1px dotted black; padding:25px; margin:0 0 25px; }
 
 .blargh .note
 { font-size:14px; color:#999; font-style:italic; font-variant:normal; }
@@ -44,7 +47,7 @@ a
 { margin-bottom:25px; }
 
 .post p
-{ text-indent:25px; }
+{ text-indent:25px; margin-bottom:0; }
 
 .post p:first-of-type:first-letter
 { font-size:56px; display:inline-block; float:left; line-height:50px; padding:5px 5px 0 0; }
@@ -62,13 +65,13 @@ a
 { margin:0; padding-bottom:15px; vertical-align:top; display:inline-block; }
 
 .newsletter
-{ position:relative; width:575px; border-top:1px dotted black; padding:25px; margin-bottom:50px; }
+{ position:relative; width:575px; border-top:1px dotted black; padding:25px; margin-bottom:25px; }
 
 .newsletter input[type=email]
 { height:50px; width:300px; box-sizing:border-box; border:1px solid black; font:100% georgia, serif; padding:0 25px; margin-right:25px; float:left; margin-bottom:25px; }
 
 .newsletter .button
-{ height:50px; font:100% georgia, serif; padding:0 25px; background-color:#666; color:#ccc; box-sizing:border-box; margin-bottom:25px; clear:none; float:left; position:absolute; bottom:81px; left:350px; }
+{ height:50px; font:100% georgia, serif; padding:0 25px; background-color:#666; color:#ccc; box-sizing:border-box; margin-bottom:25px; clear:none; float:left; position:absolute; bottom:106px; left:350px; }
 
 .newsletter .mce_inline_error
 { display:block; margin-bottom:25px; color:black; background:#ffffdd; padding:25px; width:100%; float:left; box-sizing:border-box; }
@@ -125,7 +128,7 @@ a
    { font-size:45px; }        
 
    .column
-   { width:100%; box-sizing:border-box; padding:25px 25px 75px; border-bottom:1px dotted black; margin:0 auto; float:none; position:relative; }    
+   { width:100%; box-sizing:border-box; padding:25px 25px 50px; border-bottom:1px dotted black; margin:0 auto; float:none; position:relative; }    
 
    .blargh
    { padding-bottom:50px; border-top:0; } 

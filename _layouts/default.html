@@ -17,32 +17,40 @@
 
   <div class="wrapper">
 
-      <div class="not-so-high">
-        <img src="images/not-so-high.jpg" />
-      </div>    
+    <div class="not-so-high">
+      <img src="images/not-so-high.jpg" />
+    </div>    
 
-      <div class="column escophele">
-        <h1>Escophele&nbsp;Bee</h1>
-      </div>      
+    <div class="column escophele">
+      <h1>Escophele&nbsp;Bee</h1>
+    </div>      
 
-      <div class="nav">
-        <p>Home &nbsp;&middot;&nbsp; Books &nbsp;&middot;&nbsp; Le Blargh &nbsp;&middot;&nbsp; Me &nbsp;&middot;&nbsp; Newsletter</p>
-      </div>
+    <div class="nav">
+      <p>Home &nbsp;&middot;&nbsp; Books &nbsp;&middot;&nbsp; Le Blargh &nbsp;&middot;&nbsp; Me &nbsp;&middot;&nbsp; Newsletter</p>
+    </div>
 
-      <div class="column about">
-        <h1>About Me</h1>
-        <p>I write epic fantasy. Watch me make magic! Say <a href="mailto:hey@escophele.com">hey@escophele.com</a>.</p>        
-      </div>
+    <div class="column about">
+      <h1>About Me</h1>
+      <p>I write epic fantasy. Watch me make magic! Say <a href="mailto:hey@escophele.com">hey@escophele.com</a>.</p>        
+    </div>
 
-      <div class="column news">
-        <h1>Latest News</h1> 
-        <p>Book 1 Draft 2 is about a third done.</p>
-      </div>    
+    <div class="column news">
+      <h1>Latest News</h1> 
+      <p>Book 1 Draft 2 is about a third done.</p>
+    </div>    
 
-      <div class="column blargh">
-        <h1>Le Blargh <span class="note">Updates irregularly, but with affection</span></h1>
-        {{ content }}
-      </div>     
+    <div class="column blargh">
+      <h1>Le Blargh <span class="note">Updates irregularly, but with affection</span></h1>
+      {{ content }}
+    </div>     
+
+    <div class="column newsletter">
+      <h1>Your Ideas Are Intriguing to Me and I Wish to Subscribe to Your Newsletter</h1>
+
+      {% include email-form.html %}
+
+      <p>I'll send you early news about my upcoming book launches and sales. No spam, natch.</p>
+    </div>      
 
     <div class="the-end">
       <h1>The&nbsp;End</h1>

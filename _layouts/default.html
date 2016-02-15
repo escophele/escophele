@@ -8,8 +8,8 @@
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/style.css" />  
-  <link rel="shortcut icon" href="images/favicon.ico">
-  <link rel="icon" href="images/favicon.png">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="icon" href="/images/favicon.png">
 
 </head>
 
@@ -17,28 +17,36 @@
 
   <div class="wrapper">
 
-      <div class="not-so-high">
-        <img src="images/not-so-high.jpg" />
-      </div>    
+    <div class="not-so-high">
+      <img src="/images/not-so-high.jpg" />
+    </div>    
 
-      <div class="column escophele">
-        <h1>Escophele&nbsp;Bee</h1>
-      </div>      
+    <div class="column escophele">
+      <h1><a href="/" title="Home">Escophele&nbsp;Bee</a></h1>
+    </div>      
 
-      <div class="column about">
-        <h1>About Me</h1>
-        <p>I write epic fantasy. Watch me make magic! Say <a href="mailto:hey@escophele.com">hey@escophele.com</a>.</p>        
-      </div>
-      
-      <div class="column news">
-        <h1>Latest News</h1> 
-        <p>Book 1 Draft 2 is about a third done.</p>
-      </div>    
+    <div class="column about">
+      <h1>About Me</h1>
+      <p>I write epic fantasy. Watch me make magic! Say <a href="mailto:hey@escophele.com" title="Email me">hey@escophele.com</a>.</p>        
+    </div>
 
-      <div class="column blargh">
-        <h1>Le Blargh <span class="note">Updates irregularly, but with affection</span></h1>
-        {{ content }}
-      </div>     
+    <div class="column news">
+      <h1>Latest News</h1> 
+      <p>Book 1 Draft 2 is about a third done.</p>
+    </div>    
+
+    <div class="column blargh">
+      <h1>Le Blargh <span class="note">Updates irregularly, but with affection</span></h1>
+      {{ content }}
+    </div>     
+
+    <div class="column newsletter">
+      <h1>Your Ideas Are Intriguing to Me and I Wish to Subscribe to Your Newsletter</h1>
+
+      {% include email-form.html %}
+
+      <p>I'll send you early news about my upcoming book launches and sales. No spam, natch.</p>
+    </div>      
 
     <div class="the-end">
       <h1>The&nbsp;End</h1>

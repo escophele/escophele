@@ -14,7 +14,7 @@ img
 { margin-top:15px; display:block; }
 
 a
-{ text-decoration:none; color:black; background-image:linear-gradient(to bottom,black 0,black 100%); background-image:-webkit-linear-gradient(to bottom,black 0,black 100%); background-position:0 95%; background-repeat:repeat-x; background-size:1px 1px; text-shadow:3px 0 #fff,2px 0 #fff,1px 0 #fff,-1px 0 #fff,-2px 0 #fff,-3px 0 #fff; }
+{ text-decoration:none; color:cornflowerblue; }
 
 .wrapper
 { position:relative; max-width:675px; padding:0 25px; margin:auto; box-sizing:border-box; }
@@ -22,8 +22,30 @@ a
 .not-so-high img
 { margin:50px auto 0; }
 
+.nav
+{ margin-bottom:25px; }
+
+.nav a
+{ line-height:20px; }
+
+.nav:after
+{ 
+   content:"";
+   display:table;
+   clear:both;
+}
+
+.nav .prev
+{ float:left; }
+
+.nav .next
+{ float:right; }
+
 .column
 { float:left; width:275px; padding:25px 0 25px 25px; }
+
+.column p
+{ margin-bottom:25px; }
 
 .escophele
 { width:575px; border-bottom:1px dotted black; text-align:center; padding:25px 25px 50px; }
@@ -31,17 +53,20 @@ a
 .escophele h1
 { font-size:65px; }
 
+.escophele a
+{ color:black; }
+
 .blargh
-{ width:575px; border-top:1px dotted black; padding:25px; margin:50px 0 0; }
+{ width:575px; border-top:1px dotted black; padding:25px; margin:0; }
 
 .blargh .note
 { font-size:14px; color:#999; font-style:italic; font-variant:normal; }
 
 .post
-{ margin-bottom:50px; }
+{ margin-bottom:25px; }
 
 .post p
-{ text-indent:25px; }
+{ text-indent:25px; margin-bottom:0; }
 
 .post p:first-of-type:first-letter
 { font-size:56px; display:inline-block; float:left; line-height:50px; padding:5px 5px 0 0; }
@@ -59,16 +84,38 @@ a
 { margin:0; padding-bottom:15px; vertical-align:top; display:inline-block; }
 
 .newsletter
-{ width:575px; border-top:1px dotted black; padding:25px; margin-bottom:50px; }
+{ position:relative; width:575px; border-top:1px dotted black; padding:25px; }
 
 .newsletter input[type=email]
-{ height:50px; width:250px; box-sizing:border-box; border:1px solid black; font:100% georgia, serif; padding:0 25px; margin-right:25px; color:#999; float:left; margin-bottom:15px; }
+{ height:50px; width:300px; box-sizing:border-box; border:1px solid black; font:100% georgia, serif; padding:0 25px; margin-right:25px; float:left; margin-bottom:25px; }
 
 .newsletter .button
-{ height:50px; font:100% georgia, serif; padding:0 25px; background-color:#666; color:#ccc; box-sizing:border-box; margin-bottom:25px; }
+{ height:50px; font:100% georgia, serif; padding:0 25px; background-color:cornflowerblue; color:white; box-sizing:border-box; margin-bottom:25px; clear:none; float:left; position:absolute; bottom:106px; left:350px; cursor:pointer; }
+
+
+.newsletter .mce_inline_error
+{ display:block; margin-bottom:25px; color:black; background:#ffffdd; padding:25px; width:100%; float:left; box-sizing:border-box; }
+
+#mce-success-response, #mce-error-response
+{ margin-bottom:25px; padding:25px; background:#ffffdd; }
+
+#mce-error-response
+{ color:black; background-color:#ffffdd; }
+
+.form-wrapper
+{ float:left; width:100%; }
+
+.mc-field-group
+{ display:table; float:left; width:100%; }
+
+.newsletter div.email-field   
+{ display:table-footer-group; }   
+
+.newsletter div.mce_inline_error   
+{ display:table-header-group; width:100%; }
 
 .the-end
-{ clear:both; border-top:1px dotted black; text-align:center; padding:50px 0 100px; margin:0; }
+{ clear:both; border-top:1px dotted black; text-align:center; padding:50px 0 75px; margin:0; }
 
 .the-end h1
 { font-size:50px; }
@@ -77,7 +124,7 @@ a
 {     
 
    body
-   { font:18px/28px georgia, serif; }
+   { font:16px/24px georgia, serif; }
 
    img
    { margin-bottom:0; width:100%; }
@@ -91,17 +138,17 @@ a
    .wrapper
    { max-width:450px; padding:0 25px; box-sizing:border-box; margin:auto; }
 
-   .not-so-high
+   .not-so-high img
    { margin-top:25px; }
 
    .escophele
-   { width:100%; max-width:400px; padding-bottom:50px !important; }
+   { width:100%; max-width:400px; padding-bottom:25px; }
 
    .escophele h1, .the-end h1
    { font-size:45px; }        
 
    .column
-   { width:100%; box-sizing:border-box; padding:25px 25px 75px; border-bottom:1px dotted black; margin:0 auto; float:none; position:relative; }    
+   { width:100%; box-sizing:border-box; padding:25px 0 25px; border-bottom:1px dotted black; margin:0 auto; float:none; position:relative; }    
 
    .blargh
    { padding-bottom:25px; border-top:0; } 
@@ -113,16 +160,25 @@ a
    { margin-bottom:0; font-size:20px; }
 
    .post p:first-of-type:first-letter
-   { font-size:56px; line-height:50px; }    
+   { font-size:48px; line-height:40px; }    
 
    .newsletter
    { border-top:0; } 
 
+   .form-wrapper, .mc-field-group
+   { display:table; width:100%; float:none; font-size:18px; }
+
+   .newsletter div.mce_inline_error   
+   { display:table-header-group; width:100%; }
+
+   .newsletter .email-field   
+   { display:table-footer-group; margin-bottom:25px; float:none; }   
+
    .newsletter input[type=email], .newsletter .button
-   { width:100%; margin-right:0px; text-align:center; }
+   { position:relative; width:100%; margin-right:0px; text-align:center; bottom:0; left:0; font-size:18px; }
 
    .the-end
-   { width:100%; max-width:400px; box-sizing:border-box; padding:50px 25px 100px; margin:0 auto; border:0; }
+   { width:100%; max-width:400px; box-sizing:border-box; padding:50px 25px 75px; margin:0 auto; border:0; }
 
 }
 

@@ -16,6 +16,9 @@ img
 a
 { text-decoration:none; color:cornflowerblue; }
 
+ul
+{ list-style:none; }
+
 .wrapper
 { position:relative; max-width:675px; padding:0 25px; margin:auto; box-sizing:border-box; }
 
@@ -55,6 +58,25 @@ a
 
 .escophele a
 { color:black; }
+
+.news .checked
+{ color:#999; }
+
+.news .checked:before
+{ 
+   content: "\2713";
+   display:inline-block;
+   width:10px;
+   padding-right:10px;
+}
+
+.news .unchecked:before
+{ 
+   content: "\2610";
+   display:inline-block;
+   width:10px;
+   padding-right:10px;
+}
 
 .blargh
 { width:575px; border-top:1px dotted black; padding:25px; margin:0; }

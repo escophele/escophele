@@ -10,6 +10,7 @@ title: Escophele Bee
 </div>
 {% endfor %}
 
+{% if paginator.total_pages > 1 %}
 <div class="nav">
 
    {% if paginator.previous_page %}
@@ -20,4 +21,5 @@ title: Escophele Bee
    {% endif %}
 
 </div>
+{% endif %}
 

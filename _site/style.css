@@ -88,7 +88,7 @@ ul, li
 { font-size:14px; color:#999; font-style:italic; font-variant:normal; }
 
 .post
-{ margin-bottom:25px; }
+{ margin-bottom:25px; position:relative; }
 
 .post p
 { text-indent:25px; margin-bottom:0; }
@@ -104,6 +104,12 @@ ul, li
 
 .post-nav
 { font-weight:normal; font-size:16px; text-transform:uppercase; padding-bottom:50px; } 
+
+.post h2
+{ xpadding:0 0 10px; xposition:absolute; bottom:0; right:0; }
+
+.post h2, .post h2 a
+{ color:#999; }
 
 .books img
 { margin:0; padding-bottom:15px; vertical-align:top; display:inline-block; }

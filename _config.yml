@@ -4,6 +4,7 @@ description:
 baseurl: ""
 url: ""
 permalink: /:year/:month/:day/
+paginate: 5
 
 defaults:
   -

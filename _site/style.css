@@ -94,7 +94,12 @@ ul, li
 { text-indent:25px; margin-bottom:0; }
 
 .post p:first-of-type:first-letter
-{ font-size:56px; display:inline-block; float:left; line-height:50px; padding:5px 5px 0 0; }
+{ font-size:56px; display:inline-block; float:left; line-height:50px; padding:5px 10px 0 0; xborder:1px solid red; margin:0; }
+
+@-moz-document url-prefix() { 
+   .post p:first-of-type:first-letter
+   { font-size:56px; display:inline-block; float:left; line-height:50px; padding:10px 10px 0 0; xborder:1px solid red; margin:0; }
+}
 
 .post img
 { text-indent:0; }
@@ -104,9 +109,6 @@ ul, li
 
 .post-nav
 { font-weight:normal; font-size:16px; text-transform:uppercase; padding-bottom:50px; } 
-
-.post h2
-{ xpadding:0 0 10px; xposition:absolute; bottom:0; right:0; }
 
 .post h2, .post h2 a
 { color:#999; }

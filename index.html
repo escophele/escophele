@@ -5,7 +5,7 @@ title: Escophele Bee
 
 {% for post in paginator.posts %}
 <div class="post">   
-   <h2><a href="{{ post.url }}" title="Permalink">{{ post.date | date: '%Y &middot; %-m &middot; %-d' }}</a> ~</h2>
+   <h2><a href="{{ post.url }}" title="Permalink">{{ post.date | date: '%Y &middot; %-m &middot; %-d' }}</a></h2>
    {{ post.content }}
 </div>
 {% endfor %}

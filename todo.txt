@@ -1,5 +1,6 @@
-- Add mailchimp form
-- Figure out archive
-- Font
 - Replace caret
-- simplify css
+- Simplify css
+	
+/ Add mailchimp form
+/ Figure out archive
+/ Font 

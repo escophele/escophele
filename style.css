@@ -177,6 +177,9 @@ ul, li
    .column
    { width:100%; box-sizing:border-box; padding:25px; border-bottom:1px dotted black; margin:0 auto; float:none; position:relative; }    
 
+   .escophele.column
+   { padding:25px 0 25px; }
+
    .blargh
    { padding-bottom:25px; border-top:0; } 
 

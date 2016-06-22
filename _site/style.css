@@ -154,10 +154,10 @@ ul, li
    { margin-bottom:0; width:100%; }
 
    h1
-   { font-size:45px; }
+   { font-size:40px; }
 
    h2
-   { font-size:26px; margin-bottom:15px; }
+   { font-size:25px; margin-bottom:15px; padding-top:10px; }
 
    h3
    { font-size:16px; }     
@@ -190,7 +190,7 @@ ul, li
    { padding-bottom:15px; border-top:0; } 
 
    .blargh .note
-   { display:block; line-height:20px; margin-top:5px; }      
+   { display:block; line-height:20px; margin-top:5px; padding-bottom:10px; }      
 
    .post p
    { margin-bottom:0; }

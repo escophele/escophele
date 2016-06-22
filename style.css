@@ -104,9 +104,6 @@ ul, li
 .post p:nth-of-type(1)
 { text-indent:0; }   
 
-.post-nav
-{ font-weight:normal; font-size:16px; text-transform:uppercase; padding-bottom:50px; } 
-
 .post h3, .post h3 a
 { color:black; }
 
@@ -160,10 +157,13 @@ ul, li
    { font-size:45px; }
 
    h2
-   { font-size:26px; }
+   { font-size:26px; margin-bottom:15px; }
 
    h3
    { font-size:16px; }     
+
+   .nav
+   { margin-bottom:15px; }
 
    .wrapper
    { max-width:450px; padding:0 15px; box-sizing:border-box; margin:auto; }
@@ -174,26 +174,35 @@ ul, li
    .escophele
    { width:100%; max-width:400px; padding-bottom:25px; }
 
+   .news ul
+   { margin-bottom:15px; }   
+
    .column
-   { width:100%; box-sizing:border-box; padding:25px 15px 25px; border-bottom:1px dotted black; margin:0 auto; float:none; position:relative; }    
+   { width:100%; box-sizing:border-box; padding:15px; border-bottom:1px dotted black; margin:0 auto; float:none; position:relative; }    
+
+   .column p
+   { margin-bottom:15px; }
 
    .escophele.column
    { padding:15px 0 15px; }
 
    .blargh
-   { padding-bottom:25px; border-top:0; } 
+   { padding-bottom:15px; border-top:0; } 
 
    .blargh .note
-   { display:block; line-height:20px; margin-top:5px; }   
+   { display:block; line-height:20px; margin-top:5px; }      
 
-   .post-nav
-   { margin-bottom:0; font-size:20px; }
+   .post p
+   { margin-bottom:0; }
 
    .post p:first-of-type:first-letter
    { font-size:48px; line-height:40px; }    
 
    .newsletter
    { border-top:0; } 
+
+   .newsletter h2
+   { padding-bottom:15px; }
 
    .form-wrapper, .mc-field-group
    { display:table; width:100%; float:none; font-size:18px; }

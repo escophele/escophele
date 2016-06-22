@@ -5,10 +5,10 @@ body
 { font:18px/28px georgia, serif; }
 
 h1
-{ font-family: 'Goudy Bookletter 1911', serif; font-weight:normal; font-size:65px; font-variant:small-caps; letter-spacing:2px; margin-bottom:25px; }
+{ font-family: 'Alike Angular', serif; font-weight:normal; font-size:65px; font-variant:small-caps; letter-spacing:2px; margin-bottom:25px; }
 
 h2
-{ font-family: 'Goudy Bookletter 1911', serif; font-weight:normal; font-size:30px; font-variant:small-caps; letter-spacing:2px; margin-bottom:25px; }
+{ font-family: 'Alike Angular', serif; font-weight:normal; font-size:30px; font-variant:small-caps; letter-spacing:2px; margin-bottom:25px; }
 
 h3
 { font-weight:normal; font-size:18px; }
@@ -54,7 +54,7 @@ ul, li
 { margin-bottom:25px; }
 
 .escophele
-{ width:575px; border-bottom:1px solid black; text-align:center; padding:25px 25px 50px; }
+{ width:575px; border-bottom:1px dotted black; text-align:center; padding:25px 25px 50px; }
 
 .escophele a
 { color:black; }
@@ -79,10 +79,10 @@ ul, li
 }
 
 .blargh
-{ width:575px; border-top:1px solid black; padding:25px; margin:0; }
+{ width:575px; border-top:1px dotted black; padding:25px; margin:0; }
 
 .blargh .note
-{ font-size:16px; color:#999; font-style:italic; font-variant:normal; }
+{ font-family:georgia, serif; font-size:14px; color:#999; font-style:italic; font-variant:normal; }
 
 .post
 { margin-bottom:25px; position:relative; }
@@ -91,11 +91,11 @@ ul, li
 { text-indent:25px; margin-bottom:0; }
 
 .post p:first-of-type:first-letter
-{ font-family: 'Goudy Bookletter 1911', serif; font-size:56px; display:inline-block; float:left; line-height:50px; padding:5px 10px 0 0; margin:0; }
+{ font-family: 'Alike Angular', serif; font-size:56px; display:inline-block; float:left; line-height:50px; padding:5px 10px 0 0; margin:0; }
 
 @-moz-document url-prefix() { 
    .post p:first-of-type:first-letter
-   { font-family: 'Goudy Bookletter 1911', serif; font-size:56px; display:inline-block; float:left; line-height:50px; padding:10px 10px 0 0; margin:0; }
+   { font-family: 'Alike Angular', serif; font-size:56px; display:inline-block; float:left; line-height:50px; padding:10px 10px 0 0; margin:0; }
 }
 
 .post img
@@ -114,7 +114,7 @@ ul, li
 { margin:0; padding-bottom:15px; vertical-align:top; display:inline-block; }
 
 .newsletter
-{ position:relative; width:575px; border-top:1px solid black; padding:25px; }
+{ position:relative; width:575px; border-top:1px dotted black; padding:25px; }
 
 .newsletter input[type=email]
 { height:50px; width:300px; box-sizing:border-box; border:1px solid black; font:100% georgia, serif; padding:0 25px; margin-right:25px; float:left; margin-bottom:25px; }
@@ -145,7 +145,7 @@ ul, li
 { display:table-header-group; width:100%; }
 
 .the-end
-{ clear:both; border-top:1px solid black; text-align:center; padding:50px 0 75px; margin:0; }
+{ clear:both; border-top:1px dotted black; text-align:center; padding:50px 0 75px; margin:0; }
 
 @media only screen and ( max-width:675px ) 
 {     
@@ -175,7 +175,7 @@ ul, li
    { width:100%; max-width:400px; padding-bottom:25px; }
 
    .column
-   { width:100%; box-sizing:border-box; padding:25px 0 25px; border-bottom:1px solid black; margin:0 auto; float:none; position:relative; }    
+   { width:100%; box-sizing:border-box; padding:25px; border-bottom:1px dotted black; margin:0 auto; float:none; position:relative; }    
 
    .blargh
    { padding-bottom:25px; border-top:0; } 

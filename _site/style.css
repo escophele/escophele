@@ -47,7 +47,7 @@ ul, li
 .nav .next
 { float:right; }
 
-.nav .prev:before
+/*.nav .prev:before
 { 
    content: "\293a";
    display:inline-block;
@@ -61,7 +61,7 @@ ul, li
    display:inline-block;
    width:20px;
    text-align:right;
-}
+}*/
 
 .column
 { float:left; width:275px; padding:25px 0 25px 25px; }

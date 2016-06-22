@@ -54,7 +54,7 @@ ul, li
 { margin-bottom:25px; }
 
 .escophele
-{ width:575px; border-bottom:1px dotted black; text-align:center; padding:25px 25px 50px; }
+{ width:575px; border-bottom:1px dashed black; text-align:center; padding:25px 25px 50px; }
 
 .escophele a
 { color:black; }
@@ -79,7 +79,7 @@ ul, li
 }
 
 .blargh
-{ width:575px; border-top:1px dotted black; padding:25px; margin:0; }
+{ width:575px; border-top:1px dashed black; padding:25px; margin:0; }
 
 .blargh .note
 { font-family:georgia, serif; font-size:14px; color:#999; font-style:italic; font-variant:normal; }
@@ -111,7 +111,7 @@ ul, li
 { margin:0; padding-bottom:15px; vertical-align:top; display:inline-block; }
 
 .newsletter
-{ position:relative; width:575px; border-top:1px dotted black; padding:25px; }
+{ position:relative; width:575px; border-top:1px dashed black; padding:25px; }
 
 .newsletter input[type=email]
 { height:50px; width:300px; box-sizing:border-box; border:1px solid black; font:100% georgia, serif; padding:0 25px; margin-right:25px; float:left; margin-bottom:25px; }
@@ -142,7 +142,7 @@ ul, li
 { display:table-header-group; width:100%; }
 
 .the-end
-{ clear:both; border-top:1px dotted black; text-align:center; padding:50px 0 75px; margin:0; }
+{ clear:both; border-top:1px dashed black; text-align:center; padding:50px 0 75px; margin:0; }
 
 @media only screen and ( max-width:675px ) 
 {     
@@ -178,7 +178,7 @@ ul, li
    { margin-bottom:15px; }   
 
    .column
-   { width:100%; box-sizing:border-box; padding:15px; border-bottom:1px dotted black; margin:0 auto; float:none; position:relative; }    
+   { width:100%; box-sizing:border-box; padding:15px; border-bottom:1px dashed black; margin:0 auto; float:none; position:relative; }    
 
    .column p
    { margin-bottom:15px; }

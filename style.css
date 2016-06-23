@@ -47,21 +47,21 @@ ul, li
 .nav .next
 { float:right; }
 
-/*.nav .prev:before
+.nav .prev:before
 { 
-   content: "\293a";
+   content: url(images/arrow-arc-left.png);
    display:inline-block;
-   width:20px;
+   width:22px;
    text-align:left;
 }
 
 .nav .next:after
 { 
-   content: "\293b";
+   content: url(images/arrow-arc-right.png);
    display:inline-block;
-   width:20px;
+   width:22px;
    text-align:right;
-}*/
+}
 
 .column
 { float:left; width:275px; padding:25px 0 25px 25px; }

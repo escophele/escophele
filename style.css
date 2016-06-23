@@ -49,18 +49,22 @@ ul, li
 
 .nav .prev:before
 { 
-   content: url(images/arrow-arc-left.png);
+   content: "";
    display:inline-block;
-   width:22px;
-   text-align:left;
+   background:url(images/arrow-arc-left-2x.png) center left no-repeat;   
+   background-size:16px auto;
+   height:16px;
+   width:22px;   
 }
 
 .nav .next:after
 { 
-   content: url(images/arrow-arc-right.png);
+   content: "";
    display:inline-block;
-   width:22px;
-   text-align:right;
+   background:url(images/arrow-arc-right-2x.png) center right no-repeat;   
+   background-size:16px auto;
+   height:16px;
+   width:22px;   
 }
 
 .column

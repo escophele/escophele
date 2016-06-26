@@ -236,6 +236,6 @@ ul, li
    { position:relative; width:100%; margin-right:0px; text-align:center; bottom:0; left:0; font-size:18px; }
 
    .the-end
-   { width:100%; max-width:400px; box-sizing:border-box; padding:50px 25px 75px; margin:0 auto; border:0; }
+   { width:100%; max-width:400px; box-sizing:border-box; padding:50px 0; margin:0 auto; border:0; }
 
 }

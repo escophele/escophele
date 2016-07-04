@@ -105,10 +105,10 @@ ul, li
 { font-family:georgia, serif; font-size:14px; color:#999; font-style:italic; font-variant:normal; }
 
 .post
-{ margin-bottom:25px; position:relative; }
+{ margin-bottom:50px; position:relative; }
 
 .post p
-{ text-indent:25px; margin-bottom:0; }
+{ text-indent:30px; margin-bottom:0; }
 
 .post p:first-of-type:first-letter
 { font-family: 'Alike Angular', serif; font-size:56px; display:inline-block; float:left; line-height:50px; padding:5px 10px 0 0; margin:0; }

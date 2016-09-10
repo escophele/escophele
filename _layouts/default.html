@@ -3,11 +3,11 @@
 <html>
 
 <head>
-  
+
   <meta charset="utf-8" />
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/style.css" />  
+  <link rel="stylesheet" href="/style.css" />
   <link rel="shortcut icon" href="/images/favicon.ico">
   <link rel="icon" href="/images/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Alike+Angular" rel="stylesheet">
@@ -18,52 +18,27 @@
 
   <div class="wrapper">
 
-    <div class="not-so-high">
-      <img src="/images/not-so-high.jpg" />
-    </div>    
+    <div class="column banner">
+      <img id="not-so-high" src="/images/not-so-high.jpg" />
 
-    <div class="column escophele">
-      <h1><a href="/" title="Home">Escophele&nbsp;Phele</a></h1>
-    </div>      
-
-    <div class="column about">
-      <h2>About Me</h2>
-      <p>I write epic fantasy and talk about writing. Watch me make magic!</p>
-      <p>Say <a href="mailto:hey@escophele.com" title="Email me">hey@escophele.com</a>.</p>        
+      <h1>Escophele Phele</h1>
     </div>
 
-    <div class="column news">
-      <h2>Progress</h2> 
-      <ul>
-        <li class="checked">Outline</li>
-        <li class="checked">Draft 1 &middot; Free</li>
-        <li class="unchecked">Draft 2 &middot; Continuity &middot; 35%</li>
-        <li class="unchecked">Draft 3 &middot; Deep</li>
-        <li class="unchecked">Draft 4 &middot; Feedback</li>
-        <li class="unchecked">Draft 5 &middot; Polish</li>
-        <li class="unchecked">Publish!</li>        
-      </ul>    
-    </div>    
+    <div class="column nav">
+      <p>Home</p>
+      <p>Blog</p>
+      <p>Books</p>
+      <p>About</p>
+      <p>Contact</p>
+      <p>Archive</p>
+    </div>
 
-    <div class="column blargh">
-      <h2>Le Blargh <span class="note">Updates irregularly, but with affection</span></h2>
+    <div class="column main">
       {{ content }}
-    </div>     
-
-    <div class="column newsletter">
-      <h2>Your Ideas Are Intriguing to Me and I Wish to Subscribe to Your Newsletter</h2>
-
-      {% include email-form.html %}
-
-      <p>I'll tell you when my books come out. No spam, natch.</p>
-    </div>      
-
-    <div class="the-end">
-      <h1>The&nbsp;End</h1>
     </div>
 
   </div>
-  
+
 </body>
 
 </html>

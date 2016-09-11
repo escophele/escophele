@@ -4,10 +4,15 @@ title: Escophele Phele
 ---
 
 {% for post in paginator.posts %}
-<div class="post">   
-   <h3><a href="{{ post.url }}" title="Permalink">{{ post.date | date: '%Y &middot; %-m &middot; %-d' }}</a></h3>
-   {{ post.content }}
-</div>
+  <div class="post">
+
+    <p class="date">{{ post.date | date: '%Y &middot; %-m &middot; %-d' }}</p>
+
+    <h2><a href="{{ post.url }}" title="Permalink">{{ post.title }}</a></h2>
+
+    {{ post.content }}
+
+  </div>
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
@@ -22,4 +27,3 @@ title: Escophele Phele
 
 </div>
 {% endif %}
-

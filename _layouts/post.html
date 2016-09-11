@@ -1,11 +1,10 @@
 ---
 layout: default
-title: 
 ---
 
-<div class="post">   
-  <h3><a href="{{ page.url }}" title="Permalink">{{ page.date | date: '%Y &middot; %-m &middot; %-d' }}</a></h3>
-
+<div class="post">
+  <p class="date">{{ page.date | date: '%Y &middot; %-m &middot; %-d' }}</p>
+  <h2><a href="{{ page.url }}" title="Permalink">{{ page.title }}</a></h2>
   {{ content }}
 </div>
 

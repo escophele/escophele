@@ -1,41 +1,103 @@
 *
 { padding:0; margin:0; border:0; box-sizing:border-box; }
 
-html, body, .wrapper
+html, body
 { height:100%; }
 
 body
-{ background:url(images/subtle_white_feathers.png); font:22px/28px serif; }
+{ display:flex; background:lightblue; font:22px/28px serif; }
 
-.wrapper
-{ position:relative; width:1000px; }
-
-.column
-{ background:white; margin-left:15px; box-shadow:0 0 10px 1px #ddd; padding:25px; }
-
-.banner
-{ position:fixed; width:300px; height:100%; }
-
-.nav
-{ position:fixed; left:315px; width:150px; height:100%; text-align:center; }
-
-.main
-{ position:absolute; left:480px; width:490px; height:auto; }
-
-#not-so-high
-{ width:100%; }
+body > div
+{ padding:50px; margin-left:15px; background:white; overflow:auto; height:100%; border-right:5px solid black; border-left:15px solid black; }
 
 a
-{ text-decoration:none; color:black; }
+{ text-decoration:none; color:cornflowerblue; }
 
-p
-{ margin-bottom:22px; }
+h1, h2
+{ font-family: 'Alike Angular', serif; font-weight:normal; font-variant:small-caps; text-align:center; }
+
+h1 a, h2 a
+{ color:black; }
 
 h1
-{ font-family: 'Alike Angular', serif; font-weight:normal; font-size:50px; font-variant:small-caps; letter-spacing:2px; margin-bottom:25px; text-align:center; line-height:50px; margin-top:25px; }
+{ font-size:65px; line-height:60px; margin:25px 0; }
 
-h3
-{ font:20px/28px 'Alike Angular', serif; }
+h2
+{ font-size:35px; margin:5px 0 30px; }
 
-.post
-{ margin-bottom:100px; }
+.banner
+{ width:400px; flex-shrink:0; flex-grow:1; }
+
+  .banner img
+  { width:100%; }
+
+  .banner p
+  { margin-bottom:28px; }
+
+.aside
+{ width:200px; flex-shrink:0; text-align:center; }
+
+.main
+{ width:500px; max-width:700px; flex-shrink:0; flex-grow:3; margin-right:15px; }
+
+  .date
+  { text-align:center; color:#ccc; }
+
+  .post
+  { margin:0 0 100px; }
+
+  .post p
+  { text-indent:30px; margin-bottom:0; }
+
+  .post p:nth-of-type(1), .post p:nth-of-type(2)
+  { text-indent:0; }
+
+  .post p:nth-of-type(2):first-letter
+  { font-family: 'Alike Angular', serif; font-size:56px; display:inline-block; float:left; line-height:50px; padding:5px 10px 0 0; margin:0; }
+
+  @-moz-document url-prefix() {
+     .post p:nth-of-type(2):first-letter
+     { font-family: 'Alike Angular', serif; font-size:56px; display:inline-block; float:left; line-height:50px; padding:10px 10px 0 0; margin:0; }
+  }
+
+  .post img
+  { text-indent:0; }
+
+  .nav
+  { margin-bottom:25px; }
+
+  .nav a
+  { line-height:20px; }
+
+  .nav:after
+  {
+     content:"";
+     display:table;
+     clear:both;
+  }
+
+  .nav .prev
+  { float:left; }
+
+  .nav .next
+  { float:right; }
+
+  .nav .prev:before
+  {
+     content: "";
+     display:inline-block;
+     background:url(images/arrow-arc-left-2x.png) center left no-repeat;
+     background-size:16px auto;
+     height:16px;
+     width:22px;
+  }
+
+  .nav .next:after
+  {
+     content: "";
+     display:inline-block;
+     background:url(images/arrow-arc-right-2x.png) center right no-repeat;
+     background-size:16px auto;
+     height:16px;
+     width:22px;
+  }

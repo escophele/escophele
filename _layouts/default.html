@@ -16,25 +16,27 @@
 
 <body>
 
-  <div class="banner">
-    <img id="not-so-high" src="/images/not-so-high.jpg" />
-    <h1><a href="/">Escophele Phele</a></h1>
-    <p>I write epic fantasy and talk about writing. Watch me make magic!</p>
-    <p>Say <a href="mailto:hey@escophele.com" title="Email me">hey@escophele.com</a>.</p>
-  </div>
+  <div class="wrapper">
 
-  <div class="aside">
-    <p>Home</p>
-    <p>Blog</p>
-    <p>Books</p>
-    <p>About</p>
-    <p>Contact</p>
-  </div>
+    <div class="column banner">
+      <img id="not-so-high" src="/images/not-so-high.jpg" />
+      <h1><a href="/" title="Home">Escophele Phele</a></h1>
+      <p>I write epic fantasy and talk about writing. Watch me make magic!</p>
+      <p>Say <a href="mailto:hey@escophele.com">hey@escophele.com</a>.</p>
+    </div>
 
-  <div class="main">
-    {{ content }}
-  </div>
+    <div class="column aside">
+      <h2>The Latest</h2>
+      <p>Big news! First book's out. Buy it here.<br>
+      <img src="http://placehold.it/220x300"></p>
+      <p>Book 2: 35%</p>
+    </div>
 
+    <div class="column main">
+      {{ content }}
+    </div>
+
+  </div>
 
 </body>
 

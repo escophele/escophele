@@ -1,11 +1,11 @@
-title: Escophele Bee
+title: Escophele Phele
 email: hey@escophele.com
-description: 
+description:
 baseurl: ""
 url: ""
-permalink: /:year/:month/:day/
-paginate: 5
-paginate_path: "/:num/"
+permalink: /:title
+paginate: 7
+paginate_path: "/:num"
 
 defaults:
   -

@@ -1,47 +1,63 @@
 *
 { padding:0; margin:0; border:0; box-sizing:border-box; }
 
-html, body
+html, body, .wrapper, .column
 { height:100%; }
 
 body
-{ display:flex; background:lightblue; font:22px/28px serif; }
-
-body > div
-{ padding:50px; margin-left:15px; background:white; overflow:auto; height:100%; border-right:5px solid black; border-left:15px solid black; }
+{ background:url(/images/clouds2.jpg) no-repeat; background-size:cover; font:22px/28px serif; }
 
 a
 { text-decoration:none; color:cornflowerblue; }
 
-h1, h2
+h1, h2, h3
 { font-family: 'Alike Angular', serif; font-weight:normal; font-variant:small-caps; text-align:center; }
 
-h1 a, h2 a
+h1 a, h3 a
 { color:black; }
 
 h1
-{ font-size:65px; line-height:60px; margin:25px 0; }
+{ font-size:75px; line-height:70px; margin:25px 0; }
 
 h2
+{ font-size:25px; margin:0 0 15px; }
+
+h3
 { font-size:35px; margin:5px 0 30px; }
 
-.banner
-{ width:400px; flex-shrink:0; flex-grow:1; }
+.wrapper
+{ display:flex; justify-content:center; margin:0 10px; }
 
-  .banner img
+.column
+{ padding:40px; margin:0 10px; background:white; overflow:auto; flex:0 1 auto; xbox-shadow:0 0 7px 2px #ddd; }
+
+.banner
+{ width:425px; }
+
+  #not-so-high
   { width:100%; }
+
 
   .banner p
   { margin-bottom:28px; }
 
 .aside
-{ width:200px; flex-shrink:0; text-align:center; }
+{ width:300px; }
+
+  .aside p
+  { padding-bottom:20px; padding-top:20px; }
+
+  .aside p + p
+  { border-top:1px dashed black; }
+
+  .aside img
+  { margin-top:20px; }
 
 .main
-{ width:500px; max-width:700px; flex-shrink:0; flex-grow:3; margin-right:15px; }
+{ position:relative; width:525px; }
 
   .date
-  { text-align:center; color:#ccc; }
+  { text-align:center; color:#bbb; font:22px/28px serif; }
 
   .post
   { margin:0 0 100px; }
@@ -55,11 +71,6 @@ h2
   .post p:nth-of-type(2):first-letter
   { font-family: 'Alike Angular', serif; font-size:56px; display:inline-block; float:left; line-height:50px; padding:5px 10px 0 0; margin:0; }
 
-  @-moz-document url-prefix() {
-     .post p:nth-of-type(2):first-letter
-     { font-family: 'Alike Angular', serif; font-size:56px; display:inline-block; float:left; line-height:50px; padding:10px 10px 0 0; margin:0; }
-  }
-
   .post img
   { text-indent:0; }
 
@@ -70,11 +81,7 @@ h2
   { line-height:20px; }
 
   .nav:after
-  {
-     content:"";
-     display:table;
-     clear:both;
-  }
+  { content:""; display:table; clear:both; }
 
   .nav .prev
   { float:left; }
@@ -83,21 +90,7 @@ h2
   { float:right; }
 
   .nav .prev:before
-  {
-     content: "";
-     display:inline-block;
-     background:url(images/arrow-arc-left-2x.png) center left no-repeat;
-     background-size:16px auto;
-     height:16px;
-     width:22px;
-  }
+  { content: ""; display:inline-block; background:url(images/arrow-arc-left-2x.png) center left no-repeat; background-size:16px auto; height:16px; width:22px; }
 
   .nav .next:after
-  {
-     content: "";
-     display:inline-block;
-     background:url(images/arrow-arc-right-2x.png) center right no-repeat;
-     background-size:16px auto;
-     height:16px;
-     width:22px;
-  }
+  { content: ""; display:inline-block; background:url(images/arrow-arc-right-2x.png) center right no-repeat; background-size:16px auto; height:16px; width:22px; }

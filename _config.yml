@@ -5,7 +5,7 @@ baseurl: ""
 url: ""
 permalink: /:title
 paginate: 7
-paginate_path: "/:num"
+paginate_path: "/page/:num"
 
 defaults:
   -

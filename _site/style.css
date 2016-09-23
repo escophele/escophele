@@ -75,16 +75,19 @@ h3
   { text-indent:0; }
 
   .nav
-  { margin-bottom:25px; }
+  { margin-bottom:25px; position:relative; }
 
   .nav a
-  { line-height:20px; }
+  { line-height:20px; position:relative; z-index:2; }
 
   .nav:after
   { content:""; display:table; clear:both; }
 
   .nav .prev
   { float:left; }
+
+  .nav .home
+  { position:absolute; text-align:center; width:100%; z-index:1; }
 
   .nav .next
   { float:right; }

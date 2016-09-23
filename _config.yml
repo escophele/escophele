@@ -3,7 +3,7 @@ email: hey@escophele.com
 description:
 baseurl: ""
 url: ""
-permalink: /:title
+permalink: /:year/:title
 paginate: 7
 paginate_path: "/page/:num"
 

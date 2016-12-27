@@ -1,9 +1,9 @@
 title: Escophele Bee
 email: hey@escophele.com
-description: 
+description:
 baseurl: ""
 url: ""
-permalink: /:year/:month/:day/
+permalink: /:title
 paginate: 5
 paginate_path: "/:num/"
 

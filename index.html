@@ -3,23 +3,4 @@ layout: default
 title: Escophele Phele
 ---
 
-{% for post in paginator.posts %}
-<div class="post">   
-   <h3><a href="{{ post.url }}" title="Permalink">{{ post.date | date: '%Y &middot; %-m &middot; %-d' }}</a></h3>
-   {{ post.content }}
-</div>
-{% endfor %}
-
-{% if paginator.total_pages > 1 %}
-<div class="nav">
-
-   {% if paginator.previous_page %}
-      <a class="prev" href="{{ paginator.previous_page_path }}">Newer posts</a>
-   {% endif %}
-   {% if paginator.next_page %}
-      <a class="next" href="{{ paginator.next_page_path }}">Older posts</a>
-   {% endif %}
-
-</div>
-{% endif %}
-
+sup

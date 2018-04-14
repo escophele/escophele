@@ -1,0 +1,21 @@
+---
+layout: default
+title: 
+---
+
+<div class="post">   
+  <h3><a href="{{ page.url }}" title="Permalink">{{ page.date | date: '%Y &middot; %-m &middot; %-d' }}</a></h3>
+
+  {{ content }}
+</div>
+
+<div class="nav">
+
+   {% if page.previous.url %}
+      <a class="prev" href="{{page.previous.url}}">Previous</a>
+   {% endif %}
+   {% if page.next.url %}
+      <a class="next" href="{{page.next.url}}">Next</a>
+   {% endif %}
+
+</div>

@@ -3,3 +3,14 @@ email: hey@escophele.com
 description: 
 baseurl: ""
 url: ""
+permalink: /:year/:month/:day/
+paginate: 5
+paginate_path: "/:num/"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

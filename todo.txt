@@ -1,0 +1,6 @@
+- Replace caret
+- Simplify css
+	
+/ Add mailchimp form
+/ Figure out archive
+/ Font 

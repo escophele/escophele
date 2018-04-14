@@ -3,46 +3,67 @@
 <html>
 
 <head>
+  
   <meta charset="utf-8" />
-  <title>Escophele</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/style.css" />
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ek+Mukta:300,700" />
-  <link rel="icon" href="/images/favicon.png" />
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/style.css" />  
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="icon" href="/images/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Alike+Angular" rel="stylesheet">
+
 </head>
 
 <body>
 
-<div class="wrapper">
-   <div class="header">
-      <a href="/">Escophele</a>
-   </div>
-   {{ content }}
-   <div class="footer">
-      <a href="mailto:hey@escophele.com">hey@escophele.com</a>
-   </div>
-</div>
+  <div class="wrapper">
 
-<!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-//<![CDATA[
-var sc_project=10746029; 
-var sc_invisible=1; 
-var sc_security="17f6583c"; 
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter_xhtml.js'></"+"script>");
-//]]>
-</script>
-<noscript><div class="statcounter"><a title="shopify stats"
-href="http://statcounter.com/shopify/"
-class="statcounter"><img class="statcounter"
-src="http://c.statcounter.com/10746029/0/17f6583c/1/"
-alt="shopify stats" /></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide -->
+    <div class="not-so-high">
+      <img src="/images/not-so-high.jpg" />
+    </div>    
 
+    <div class="column escophele">
+      <h1><a href="/" title="Home">Escophele&nbsp;Phele</a></h1>
+    </div>      
+
+    <div class="column about">
+      <h2>About Me</h2>
+      <p>I write epic fantasy and talk about writing. Watch me make magic!</p>
+      <p>Say <a href="mailto:hey@escophele.com" title="Email me">hey@escophele.com</a>.</p>        
+    </div>
+
+    <div class="column news">
+      <h2>Progress</h2> 
+      <ul>
+        <li class="checked">Outline</li>
+        <li class="checked">Draft 1 &middot; Free</li>
+        <li class="unchecked">Draft 2 &middot; Continuity &middot; 35%</li>
+        <li class="unchecked">Draft 3 &middot; Deep</li>
+        <li class="unchecked">Draft 4 &middot; Feedback</li>
+        <li class="unchecked">Draft 5 &middot; Polish</li>
+        <li class="unchecked">Publish!</li>        
+      </ul>    
+    </div>    
+
+    <div class="column blargh">
+      <h2>Le Blargh <span class="note">Updates irregularly, but with affection</span></h2>
+      {{ content }}
+    </div>     
+
+    <div class="column newsletter">
+      <h2>Your Ideas Are Intriguing to Me and I Wish to Subscribe to Your Newsletter</h2>
+
+      {% include email-form.html %}
+
+      <p>I'll tell you when my books come out. No spam, natch.</p>
+    </div>      
+
+    <div class="the-end">
+      <h1>The&nbsp;End</h1>
+    </div>
+
+  </div>
+  
 </body>
 
 </html>
